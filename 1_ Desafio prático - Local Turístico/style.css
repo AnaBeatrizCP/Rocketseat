@@ -1,0 +1,98 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GERAL */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f9f7f3;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 2.2rem;
+    margin: 10px 0 20px;
+    color: #111;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+h3.tag {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #d24545;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+h3.red {
+    color: #d24545;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #111;
+}
+
+/* PARÁGRAFOS */
+p {
+    margin-bottom: 15px;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* IMAGENS */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0 25px;
+}
+
+/* SEÇÕES */
+section {
+    margin-bottom: 50px;
+}
+
+/* DESTINOS */
+.destino {
+    margin-top: 30px;
+}
+
+.destino a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.destino a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    color: #555;
+    font-size: 0.9rem;
+}
